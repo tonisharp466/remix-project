@@ -4,7 +4,6 @@ import {useDialogDispatchers} from '../../context/provider'
 
 const OriginWarning = () => {
   const {alert} = useDialogDispatchers()
-  const [content, setContent] = useState<string>(null)
 
   useEffect(() => {
     // check the origin and warn message
