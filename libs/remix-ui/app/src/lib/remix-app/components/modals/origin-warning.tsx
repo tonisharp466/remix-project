@@ -20,19 +20,6 @@ const OriginWarning = () => {
       window.location.hostname !== 'remix.ethereum.org' &&
       window.location.hostname !== 'localhost' &&
       window.location.hostname !== '127.0.0.1'
-    ) {
-      setContent(`The Remix IDE has moved to http://remix.ethereum.org.\n
-      This instance of Remix you are visiting WILL NOT BE UPDATED.\n
-      Please make a backup of your contracts and start using http://remix.ethereum.org`)
-    }
-  }, [])
-
-  useEffect(() => {
-    if (content) {
-      alert({id: 'warningOriging', title: null, message: content})
-    }
-  }, [content])
-
   return <></>
 }
 
