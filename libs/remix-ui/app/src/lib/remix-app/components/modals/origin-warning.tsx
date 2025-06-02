@@ -19,7 +19,7 @@ const OriginWarning = () => {
       window.location.hostname !== 'remix.ethereum.org' &&
       window.location.hostname !== 'localhost' &&
       window.location.hostname !== '127.0.0.1'
-  return <></>
+  return <div></div>
 }
 
 export default OriginWarning
