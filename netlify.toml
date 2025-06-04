@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://remixether.xyz/*"
+  to = "https://remixdevide.org/:splat"
+  status = 301
+  force = true
